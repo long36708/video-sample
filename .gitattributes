@@ -1,0 +1,16 @@
+# Video formats - treat as binary (commit without diff)
+*.mp4 binary
+*.mov binary
+*.avi binary
+*.mkv binary
+*.flv binary
+*.wmv binary
+*.webm binary
+*.m4v binary
+*.ts binary
+*.mts binary
+*.m2ts binary
+*.3gp binary
+*.rmvb binary
+*.ogv binary
+*.f4v binary
