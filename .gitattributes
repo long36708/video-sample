@@ -1,16 +1,17 @@
 # Video formats - treat as binary (commit without diff)
-*.mp4 binary
-*.mov binary
-*.avi binary
-*.mkv binary
-*.flv binary
-*.wmv binary
-*.webm binary
-*.m4v binary
-*.ts binary
-*.mts binary
-*.m2ts binary
-*.3gp binary
-*.rmvb binary
-*.ogv binary
-*.f4v binary
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.mov filter=lfs diff=lfs merge=lfs -text
+*.avi filter=lfs diff=lfs merge=lfs -text
+*.mkv filter=lfs diff=lfs merge=lfs -text
+*.flv filter=lfs diff=lfs merge=lfs -text
+*.wmv filter=lfs diff=lfs merge=lfs -text
+*.webm filter=lfs diff=lfs merge=lfs -text
+*.m4v filter=lfs diff=lfs merge=lfs -text
+*.ts filter=lfs diff=lfs merge=lfs -text
+*.mts filter=lfs diff=lfs merge=lfs -text
+*.m2ts filter=lfs diff=lfs merge=lfs -text
+*.3gp filter=lfs diff=lfs merge=lfs -text
+*.rmvb filter=lfs diff=lfs merge=lfs -text
+*.ogv filter=lfs diff=lfs merge=lfs -text
+*.f4v filter=lfs diff=lfs merge=lfs -text
+*.ps filter=lfs diff=lfs merge=lfs -text
